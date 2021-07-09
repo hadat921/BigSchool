@@ -1,8 +1,49 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    
 }
+.navbar-inverse {
+    background-color: aqua;
+    border-color: #080808;
+}
+.navbar-inverse .navbar-inverse > li> a {
+    color:white;
+}
+.navbar-inverse .navbar-brand {
+    color:white;
+}
+.course {
+    list-style:none;
+}
+.course > li {
+    position:relative;
+    margin-bottom:30px;
 
+}
+.course > li .date {
+    text-align:center;
+    background-color: #b200ff;
+    color:white;
+    width: 60px;
+    border-radius:8px;
+}
+.course > li .details {
+    position:absolute;
+    top:0;
+    left:70px;
+}
+.course > li .lecture{
+
+}
+.course > li .action {
+    display:none;
+    left:70px;
+    position:absolute;
+}
+.course > li:hover .action {
+    display:block;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
